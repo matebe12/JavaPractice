@@ -1,0 +1,24 @@
+server 
+서버는 선택된 내용만 처리
+
+순서
+1)서버 접속대기
+2)client접속 완료시 작업처리
+3)server가 client에게 접속메시지 전송
+4)server가 client 선택된 메뉴 받기
+5)server가 client선택된 메뉴에 따른 처리작업 내용 전송
+6)client접속 종료
+
+
+client 
+메뉴는 client에서 보여준다
+선택된 내용을 확인한다.
+
+순서
+1) client가 서버 접속
+2) client에서 서버 메시지 받음(server 접속 메시지 전송)
+3) client에서 메뉴 보여줌
+4) 사용자가 client에서 메뉴 선택
+5) client가 선택된 메뉴 서버에 보내줌
+6) 서버에서 처리한 결과를 출력해줌
+7)접속 종료

@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+
+public class ArrayList1 {
+
+	public static void main(String[] args) {
+
+		ArrayList<String> d = new ArrayList<String>();
+		
+		d.add("홍길동");
+		d.add("고길동");
+		d.add("호길두");
+		
+		for(int i=0;i<d.size();i++) {
+			System.out.println("add :"+d.get(i));
+		}
+		
+		d.addAll(d);
+		
+		//System.out.println(d);
+	}
+
+}

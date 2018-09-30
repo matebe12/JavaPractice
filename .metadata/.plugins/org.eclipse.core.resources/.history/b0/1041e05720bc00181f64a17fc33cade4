@@ -1,0 +1,41 @@
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class ArrayList1 {
+
+	public static void main(String[] args) {
+
+		ArrayList<Integer> d = new ArrayList<Integer>();
+		//ArrayList<Integer> c = new ArrayList<Integer>();
+		
+		d.add(5);
+		d.add(6);
+		d.add(2);
+		
+		for(int i=0;i<d.size();i++) {
+			System.out.println("add :"+d.get(i));
+		}
+		
+		d.remove(0);
+		/*for(int i=0;i<d.size();i++) {
+			System.out.println(d.get(i));
+		}*/
+		Iterator<Integer> it = d.iterator();
+		
+		while(it.hasNext()) {
+			System.out.println(it.next());
+		}
+		for(int value : d) {
+			System.out.println(value);
+		}
+		/*while(it.hasNext()) {
+			System.out.println(it.next());
+		}
+		c.add(1);
+		
+		d.addAll(c);
+		
+		System.out.println(d);*/
+	}
+
+}

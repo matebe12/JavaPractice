@@ -1,0 +1,13 @@
+import java.net.*;
+import java.io.*;
+import java.io.*;
+public class SomeIsLove {
+
+	public static void main(String[] args) throws IOException {
+		Socket s =new Socket();
+		ServerSocket e =new  ServerSocket();
+		BufferedReader x =new BufferedReader();
+		
+	}
+
+}

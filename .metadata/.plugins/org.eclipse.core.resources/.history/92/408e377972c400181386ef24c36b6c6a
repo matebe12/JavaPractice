@@ -1,0 +1,10 @@
+import java.net.*;
+import java.io.*;
+
+public class SomeIsLove {
+
+	public static void main(String[] args) {
+		Socket Sheis92 =new Socket();
+	}
+
+}

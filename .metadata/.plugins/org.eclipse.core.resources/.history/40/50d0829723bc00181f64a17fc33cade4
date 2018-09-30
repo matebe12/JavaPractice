@@ -1,0 +1,73 @@
+import java.util.ArrayList;
+import java.util.Iterator;
+
+class Num{
+	
+	 String name;
+	 int phone;
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getPhone() {
+		return phone;
+	}
+	public void setPhone(int phone) {
+		this.phone = phone;
+	}
+	Num(String name, int phone){
+		this.name=name;
+		this.phone=phone;
+		
+	}
+	Num(){
+		
+	}
+	
+}
+
+public class ArrayList1 {
+
+	public static void main(String[] args) {
+
+		ArrayList<Num> d = new ArrayList<Num>();
+		//ArrayList<Integer> c = new ArrayList<Integer>();
+		
+		
+		d.add(new Num("ÀÌ»ó¿¬",0));
+		d.add(new Num());
+		
+		
+		
+		for(int i=0;i<d.size();i++) {
+			System.out.println("d [ :"+"i]"+d.get(i));
+		}
+		
+		d.remove(0);
+		/*for(int i=0;i<d.size();i++) {
+			System.out.println(d.get(i));
+		}*/
+		Iterator<Num> it = d.iterator();
+		
+		while(it.hasNext()) {
+			System.out.println(it.next());
+		}
+		for(Num value : d) {
+			System.out.println(value);
+		}
+		/*while(it.hasNext()) {
+			System.out.println(it.next());
+		}
+		c.add(1);
+		
+		d.addAll(c);
+		
+		System.out.println(d);*/
+	}
+
+}
+
+

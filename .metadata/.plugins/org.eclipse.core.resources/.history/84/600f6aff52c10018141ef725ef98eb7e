@@ -1,0 +1,46 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		User user =new User("À¯º´ÇÐ");
+		User user1 = new User("±èÀÌ¾ð");
+		
+		user.Money();
+		user1.Money();
+		
+		
+		int[] card = new int[20];
+		
+		card[0]=10;
+		card[1]=1;
+		card[2]=2;
+		card[3]=3;
+		card[4]=4;
+		card[5]=5;
+		card[6]=6;
+		card[7]=7;
+		card[8]=8;
+		card[9]=9;
+		card[10]=10;
+		card[11]=11; //±¤
+		card[12]=12;
+		card[13]=13; //±¤
+		card[14]=14;
+		card[15]=15;
+		card[16]=16;
+		card[17]=17;
+		card[18]=18;//±¤
+		card[19]=19;
+		
+		
+		System.out.println("À¯º´ÇÐÀÇ µ·"+user.FIRSTMONEY);
+		System.out.println("±èÀÌ¾ðÀÇ µ·"+user1.FIRSTMONEY);
+		
+		for(int i=0;i<2;i++) {
+			card[i]=
+		}
+		
+		
+	}
+
+}

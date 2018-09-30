@@ -1,0 +1,24 @@
+import java.util.ArrayList;
+
+public class ArrayList1 {
+
+	public static void main(String[] args) {
+
+		ArrayList<String,Integer> d = new ArrayList<String,Integer>();
+		//ArrayList<Integer> c = new ArrayList<Integer>();
+		
+		d.add("홍길동",2);
+		d.add("고길동",3);
+		d.add("호길두",4);
+		
+		for(int i=0;i<d.size();i++) {
+			System.out.println("add :"+d.get(i));
+		}
+		/*c.add(1);
+		
+		d.addAll(c);
+		*/
+		System.out.println(d);
+	}
+
+}

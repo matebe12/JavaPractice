@@ -1,0 +1,8 @@
+
+public class Jokbo{
+
+	
+	int[] card = new int[20];
+	
+
+}

@@ -1,0 +1,14 @@
+import java.util.ArrayList;
+
+public class Student_Array {
+
+	ArrayList<Student> std;
+	
+	public Student_Array() {
+	std= new ArrayList<Student>();
+	}
+	
+	
+
+	
+}
